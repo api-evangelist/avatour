@@ -1,0 +1,46 @@
+generated: '2026-09-27'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 2
+  own: 2
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - website
+hosts:
+- host: api.avatour.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: avatour.com
+  role: api
+  relation: own
+- host: avatour.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - Support
+  - Security
+  - PrivacyPolicy
+  - Pricing
+  - ChangeLog
+  - GettingStarted
+  - Website
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: avatour.com
+  role: website
+  relation: own

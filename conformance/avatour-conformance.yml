@@ -1,0 +1,18 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://avatour.com/support/is-avatour-gdpr-compliant
+sources:
+- https://avatour.com/support/is-avatour-gdpr-compliant
+- https://avatour.com/legal/privacy-policy
+- https://avatour.com/security
+- https://avatour.com/article/maximizing-ehs-compliance-audit-success
+standards:
+- id: gdpr
+  conforms: true
+  evidence: Is Avatour GDPR-compliant? Yes. AVATOUR manages user information in accordance with the GDPR.
+- id: gdpr
+  conforms: true
+  evidence: Our data provider is certified under the E.U.-U.S. Privacy Shield to ensure that all transferring of personal data is compliant.
+docs: https://avatour.com/support/is-avatour-gdpr-compliant
+note: 8 extracted row(s) were dropped because their quote was not on the page.

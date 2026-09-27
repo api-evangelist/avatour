@@ -1,0 +1,145 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://avatour.com/webshop/pricing
+sources:
+- https://avatour.com/webshop/pricing
+name: AVATOUR pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Personal
+  price_text: $149 /mo
+  price: 149
+  description: For sole proprietors and anyone who wants to get started with capturing and sharing in 360°.
+  features:
+  - PanoX V2 360° Camera FREE
+  - 1 Camera License
+  - 1 User License
+  - 5 Workspaces
+  - 5 Guests / Meeting
+  - 50GB storage
+  - 2 hr meeting duration
+  - Live 360° Video Conferences
+  - QuickCapture offline 360° recording
+  - SuperFreeze image capture
+  - Support for Meta and Pico VR headsets
+  - POV indicators and Spotlight pointer
+  - Snapshots and Notes in Video
+- name: Popular Team
+  price_text: $289 /mo
+  price: 289
+  description: Cost-effective and expandable location-based collaboration for small teams, including advanced features.
+  features:
+  - PanoX V2 w. Accessory Kit FREE
+  - 1 Camera License
+  - 3 User Licenses
+  - 10 Workspaces / User
+  - 10 Guests / Meeting
+  - 100GB Storage / User
+  - 2 hr meeting duration
+  - Live 360° Cloud Recording
+  - Apple Vision Pro support
+  - Face blur for recorded assets
+  - Webinar Mode (up to 30 spectators)
+  - Branded Guest Experience
+- name: Business
+  price_text: $474 /mo
+  price: 474
+  description: For businesses with more extensive needs for marketing or group collaboration.
+  features:
+  - PanoX V2 w. Pro Kit FREE
+  - 1 Camera License
+  - 5 User Licenses
+  - 20 Workspaces / User
+  - 20 Guests / Meeting
+  - 250GB Storage / User
+  - 4 hr meeting duration
+  - Face blur for recorded assets
+  - Webinar Mode (up to 30 spectators)
+  - Branded Guest Experience
+  - SSO Integration
+  - Support Packages
+- name: Enterprise
+  price_text: Let's Talk
+  description: For larger organizations with custom purchasing terms and/or specialized enterprise security requirements.
+  features:
+  - 1 Camera License
+  - 10 User Licenses
+  - Unlimited Workspaces
+  - 20 Guests / Meeting
+  - 2TB Storage / User
+  - 24 hr meeting duration
+  - SSO Integration
+  - Centralized IT management console
+  - Real-time AI processing engine
+  - Private Cloud Options
+  - IglooVision Support
+- name: Personal (First Month Free)
+  price_text: $178 /mo
+  price: 178
+  description: For sole proprietors and anyone who wants to get started with capturing and sharing in 360° (first month free with camera purchase).
+  features:
+  - PanoX V2 360° Camera $399
+  - 1 Camera License
+  - 1 User License
+  - 5 Workspaces
+  - 5 Guests / Meeting
+  - 50GB storage
+  - 2 hr meeting duration
+  - Live 360° Video Conferences
+  - QuickCapture offline 360° recording
+  - SuperFreeze image capture
+  - Support for Meta and Pico VR headsets
+  - POV indicators and Spotlight pointer
+  - Snapshots and Notes in Video
+- name: Popular Team (First Month Free)
+  price_text: $346 /mo
+  price: 346
+  description: Cost-effective and expandable location-based collaboration for small teams (first month free with camera purchase).
+  features:
+  - PanoX V2 w. Accessory Kit $478
+  - 1 Camera License
+  - 3 User Licenses
+  - 10 Workspaces / User
+  - 10 Guests / Meeting
+  - 100GB Storage / User
+  - 2 hr meeting duration
+  - Live 360° Cloud Recording
+  - Apple Vision Pro support
+  - Face blur for recorded assets
+  - Webinar Mode (up to 30 spectators)
+  - Branded Guest Experience
+- name: Business (First Month Free)
+  price_text: $544 /mo
+  price: 544
+  description: For businesses with more extensive needs for marketing or group collaboration (first month free with camera purchase).
+  features:
+  - PanoX V2 w. Pro Kit $648
+  - 1 Camera License
+  - 5 User Licenses
+  - 20 Workspaces / User
+  - 20 Guests / Meeting
+  - 250GB Storage / User
+  - 4 hr meeting duration
+  - Face blur for recorded assets
+  - Webinar Mode (up to 30 spectators)
+  - Branded Guest Experience
+  - SSO Integration
+  - Support Packages
+- name: Enterprise (First Month Free)
+  price_text: Let's Talk
+  description: For larger organizations with custom purchasing terms and/or specialized enterprise security requirements (contact sales).
+  features:
+  - 1 Camera License
+  - 10 User Licenses
+  - Unlimited Workspaces
+  - 20 Guests / Meeting
+  - 2TB Storage / User
+  - 24 hr meeting duration
+  - SSO Integration
+  - Centralized IT management console
+  - Real-time AI processing engine
+  - Private Cloud Options
+  - IglooVision Support
+docs: https://avatour.com/webshop/pricing

@@ -1,23 +1,94 @@
 aid: avatour
+
 name: AVATOUR
-description: 'AVATOUR is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/6578f6bdfadb289687b7a7ad/658c81c577289556c2da3815_avatour-logo-dark.svg
+
+description: Avatour provides a 360° video collaboration platform that enables teams to conduct remote inspections, virtual tours, training, and
+  continuous improvement without travel. Their solution offers live 360° walkthroughs, recorded site reviews, AI‑powered reports, and integrates
+  hardware kits for various industries such as construction, manufacturing, logistics, retail, and real estate. The platform aims to improve safety,
+  efficiency, and cost savings by delivering immersive, real‑time visual collaboration.
+
 url: https://raw.githubusercontent.com/api-evangelist/avatour/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- VideoCollaboration
+- RemoteInspection
+- VirtualTours
+- AI
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/avatour-plans-pricing.yml
+- type: Conformance
+  url: conformance/avatour-conformance.yml
+- type: Hosts
+  url: hosts/avatour-hosts.yml
+- type: Vendors
+  url: vendors/avatour-vendors.yml
+- type: TermsOfService
+  url: https://avatour.com/legal/terms-of-service
+- type: Support
+  url: https://avatour.com/support
+- type: Security
+  url: https://avatour.com/security
+- type: PrivacyPolicy
+  url: https://avatour.com/legal/privacy-policy
+- type: Pricing
+  url: https://avatour.com/webshop/pricing
+- type: ChangeLog
+  url: https://avatour.com/support-category/release-notes
+- type: GettingStarted
+  url: https://avatour.com/quickstart
+- type: VulnerabilityDisclosure
+  url: security/avatour-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/avatour-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://avatour.com/
+
+apis:
+- name: Avatour API
+  description: Avatour provides API endpoints for its 360° video collaboration platform. Documentation pages were found but no machine‑readable
+    contract could be retrieved.
+  humanURL: https://avatour.com/quickstart
+  baseURL: null
+  aid: avatour:avatour-api
+
+x-coverage:
+  state: blocked
+  reason: tooling-unavailable
+  detail: All attempts to fetch OpenAPI specs from https://api.avatour.com and https://avatour.com returned no response, likely due to network
+    restrictions.
+  evidence:
+  - url: https://api.avatour.com/openapi.json
+    status: 0
+  - url: https://avatour.com/openapi.json
+    status: 404
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
